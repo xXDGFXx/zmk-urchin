@@ -107,6 +107,7 @@
             bindings = <&tog 3>;
             layers = <0 3>;
             require-prior-idle-ms = <250>;
+            timeout-ms = <150>;
         };
 
         // internal-left & external-right thumb keys
@@ -125,13 +126,6 @@
 
         // left index & middle fingers (home-row)
         // hold control & space for Adobe workflow
-
-        combo_ctrl_space {
-            timeout-ms = <150>;
-            key-positions = <12 13>;
-            bindings = <&kp LC(SPACE)>;
-            layers = <0>;
-        };
 
         combo_caps_word {
             bindings = <&caps_word>;

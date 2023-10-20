@@ -103,10 +103,10 @@
         // both right thumb keys
 
         combo_toggle_numpad {
-            timeout-ms = <200>;
             key-positions = <32 33>;
             bindings = <&tog 3>;
             layers = <0 3>;
+            require-prior-idle-ms = <250>;
         };
 
         // internal-left & external-right thumb keys
@@ -118,7 +118,7 @@
         // both left thumb keys
 
         combo_settings {
-            timeout-ms = <200>;
+            timeout-ms = <150>;
             key-positions = <30 31>;
             bindings = <&mo 5>;
         };
@@ -127,7 +127,7 @@
         // hold control & space for Adobe workflow
 
         combo_ctrl_space {
-            timeout-ms = <200>;
+            timeout-ms = <150>;
             key-positions = <12 13>;
             bindings = <&kp LC(SPACE)>;
             layers = <0>;
@@ -136,16 +136,9 @@
         combo_caps_word {
             bindings = <&caps_word>;
             key-positions = <14 15>;
-            timeout-ms = <500>;
+            timeout-ms = <250>;
             layers = <0>;
             require-prior-idle-ms = <150>;
-        };
-
-        combo_fnc {
-            bindings = <&mo 4>;
-            key-positions = <30 33>;
-            timeout-ms = <1000>;
-            layers = <0>;
         };
     };
 

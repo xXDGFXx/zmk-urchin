@@ -120,7 +120,7 @@
 
         combo_settings {
             timeout-ms = <150>;
-            key-positions = <30 31>;
+            key-positions = <32 33>;
             bindings = <&mo 6>;
             require-prior-idle-ms = <500>;
         };

@@ -143,6 +143,13 @@
             layers = <0>;
             timeout-ms = <200>;
         };
+
+        combo_fnc {
+            bindings = <&sl 5>;
+            key-positions = <30 33>;
+            require-prior-idle-ms = <1000>;
+            timeout-ms = <150>;
+        };
     };
 
     keymap {

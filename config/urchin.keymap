@@ -103,7 +103,7 @@
         // both right thumb keys
 
         combo_toggle_numpad {
-            key-positions = <32 33>;
+            key-positions = <25 26>;
             bindings = <&tog 4>;
             layers = <0 4>;
             require-prior-idle-ms = <1000>;
